@@ -1,0 +1,87 @@
+body {
+    background-color:#666666;
+    background: -webkit-gradient(linear, left top, right top, color-stop(100%, #c9c9c9), color-stop(100%,#666)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(left, #c9c9c9 100%,#666666 100%); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(left, #c9c9c9 100%,#666666 100%);    /* FF3.6+ */
+    background: linear-gradient(to left, #c9c9c9 100%,#666666 100%);     /* W3C */
+    background: linear-gradient(#c9c9c9,#666666);
+    margin:0;
+    padding: 0;
+    font-family: Arial, Tahoma;
+}
+
+#main_container{
+    margin: 10px auto;
+    /* border: 1px solid red; */
+}
+
+#header_container{
+    /*border: 1px solid red;*/
+    width: 500px;
+    height: 300px;
+    align-self: center;
+    float: bottom;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 6em;
+}
+
+#login_container{
+    /* border: 1px solid red; */
+    width: 500px;
+    align-self: center;
+    float: top;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 2em;
+}
+
+h1{
+    color:#CF0404;
+    text-shadow: 2px 2px 4px #666666;  
+}
+
+.login_input{
+    border:none;
+    border-bottom: 1px solid #CF0404;
+    margin: 10px;
+    background: inherit;
+    color: #e6e2e2;
+    text-align: center;
+    font-weight: 500;
+}
+
+button[type="submit"]{
+    border:none;
+    box-shadow: 1px 1px #666;
+    display:block;
+    border-radius: 10px;
+    background: #CF0404;
+    color: #e6e2e2;
+    margin: 0 auto;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+button[type="submit"]:active{
+    outline: none;
+    border: 1px solid  white;
+}
+a:active{
+    outline:none;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+*:focus{
+    outline: dotted 1px white;
+}
+
+label{
+    display: block;
+    color: #e6e2e2;
+    text-shadow: 1px 1px #666;
+    font-weight: bold;
+}
