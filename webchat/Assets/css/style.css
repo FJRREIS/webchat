@@ -137,13 +137,13 @@ a{
 }
 
 #messages-body{
-    border: 6px ridge #908484;
+    border: 6px ridge #9e9494;
     /* background: #02839B; */
-    background: -webkit-gradient(linear, bottom top, color-stop(100%, #FFABAB), color-stop(100%,#EC6767)); /* Chrome, Safari4+ */
-    background: -webkit-linear-gradient(top, #FFABAB 100%,#EC6767 100%); /* Chrome10+, Safari5.1+ */
-    background: -moz-linear-gradient(top, #FFABAB 100%,#EC6767 100%);    /* FF3.6+ */
-    background: linear-gradient(to top, #FFABAB 100%,#EC6767 100%);     /* W3C */
-    background: linear-gradient(to top, #FFABAB,#EC6767);
+    background: -webkit-gradient(linear, bottom top, color-stop(100%, #FFABAB), color-stop(100%,#fc8484)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top, #FFABAB 100%,#fc8484 100%); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(top, #FFABAB 100%,#fc8484 100%);    /* FF3.6+ */
+    background: linear-gradient(to top, #FFABAB 100%,#fc8484 100%);     /* W3C */
+    background: linear-gradient(to top, #FFABAB,#fc8484);
     position: absolute;
     width: 99%;
     top: 0;
@@ -156,4 +156,4 @@ a{
     position: absolute;
     width: 100%;
     bottom: 0;
-}
+}   
