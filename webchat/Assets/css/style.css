@@ -1,29 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color:#666666;
-    background: -webkit-gradient(linear, left top, right top, color-stop(100%, #c9c9c9), color-stop(100%,#666)); /* Chrome, Safari4+ */
-    background: -webkit-linear-gradient(left, #c9c9c9 100%,#666666 100%); /* Chrome10+, Safari5.1+ */
-    background: -moz-linear-gradient(left, #c9c9c9 100%,#666666 100%);    /* FF3.6+ */
-    background: linear-gradient(to left, #c9c9c9 100%,#666666 100%);     /* W3C */
-    background: linear-gradient(#c9c9c9,#666666);
-    margin:0;
-    padding: 0;
+    background: -webkit-gradient(linear, top bottom, color-stop(100%, #c9c9c9), color-stop(100%,#666)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(bottom, #c9c9c9 100%,#666666 100%); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(bottom, #c9c9c9 100%,#666666 100%);    /* FF3.6+ */
+    background: linear-gradient(to bottom, #c9c9c9 100%,#666666 100%);     /* W3C */
+    background: linear-gradient(to bottom, #c9c9c9,#666666);
     font-family: Arial, Tahoma;
 }
 
 #main_container{
-    margin: 10px auto;
-    /* border: 1px solid red; */
+    height: 98%;
+    margin: 0;
+    padding: 1em 0 0;
+    /* border: 1px solid red;  */
 }
 
 #header_container{
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
     width: 500px;
     height: 300px;
     align-self: center;
-    float: bottom;
     text-align: center;
-    margin:0 auto;
-    margin-top: 6em;
+    margin: 6em auto;
 }
 
 #login_container{
@@ -36,7 +39,7 @@ body {
     margin-top: 2em;
 }
 
-h1{
+#h_title{
     color:#CF0404;
     text-shadow: 2px 2px 4px #666666;  
 }
@@ -84,4 +87,73 @@ label{
     color: #e6e2e2;
     text-shadow: 1px 1px #666;
     font-weight: bold;
+}
+
+a{
+    width: auto;
+}
+
+/*chat*/
+
+#chat_header_container{
+    /* border: 1px solid red; */
+    align-self: center;
+    text-align: left;
+    margin: auto;
+    height: 3em;
+    left: 1%;
+    width: 98% 
+}
+
+#chat_title{
+    color:#CF0404;
+    text-shadow: 2px 2px 4px #707070;  
+    font-size: 1.3em;
+    margin: 0.6em 0.6em;
+    display: inline-block;
+}
+
+#chat_logo{
+    float:left;
+    height: 100%;
+    width: auto;
+    margin-left: 0.6em;
+}
+
+#chat_img-logo{
+    height: 50px;
+    width: auto;
+}
+
+#chat_container{
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 4.5em;
+    left: 1%;
+    bottom: 1em;
+    width: 98%;
+}
+
+#messages-body{
+    border: 6px ridge #908484;
+    /* background: #02839B; */
+    background: -webkit-gradient(linear, bottom top, color-stop(100%, #FFABAB), color-stop(100%,#EC6767)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top, #FFABAB 100%,#EC6767 100%); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(top, #FFABAB 100%,#EC6767 100%);    /* FF3.6+ */
+    background: linear-gradient(to top, #FFABAB 100%,#EC6767 100%);     /* W3C */
+    background: linear-gradient(to top, #FFABAB,#EC6767);
+    position: absolute;
+    width: 99%;
+    top: 0;
+    bottom: 3.2em;
+}
+
+#footer{
+    height: 3em;
+    float: bottom;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
