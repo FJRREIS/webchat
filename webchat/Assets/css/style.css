@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    font-size: 16;
 }
 
 body {
@@ -162,13 +163,19 @@ a{
 
 #textmsg, #btnEnviar{
     height: 100%;
-    padding: 0;
+}
+
+#textmsg-container{
+    height: 100%;
+    position: absolute;
+    left: 6em;
+    right: 12em;
 }
 
 #textmsg{
-    position: absolute;
-    left: 6.2em;
-    margin: 0;
+    width: 100%;
+    border-radius: 0.6em;
+    resize: none;
 }
 
 #btnEnviar{

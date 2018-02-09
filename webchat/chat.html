@@ -8,7 +8,9 @@
 
 <div id="footer">
     <div class="container chat-footer">
-        <input type="text" name="textmsg" id="textmsg" onkeypress="event.keyCode == 13 ? send_message('textmsg'): null" placeholder="Escreva sua mensagem...">
+        <div id="textmsg-container">
+            <textarea type="text" name="textmsg" id="textmsg" onkeypress="event.keyCode == 13 ? send_message('textmsg'): null" placeholder="Escreva sua mensagem..."></textarea>
+        </div>
         <button id="btnEnviar" type="submit" name="btnEnter" onclick="send_message('textmsg')">Enviar</button>        
     </div>
 </div>

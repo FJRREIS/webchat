@@ -1,12 +1,14 @@
-function login() {
+function login(field) {
     
-    resize_components()
+    
     
     load_chat();
 
 }
 
 function load_chat() {
+
+    resize_components()
 
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
