@@ -1,10 +1,14 @@
-<div id="messages-body">
+<div id="messages-body" class="chat-container">
     
 </div>    
 
+<div id="online-users" class="chat-container">
+
+</div>
+
 <div id="footer">
     <div class="container chat-footer">
-        <input class="input-text" type="text" name="textmsg" id="textmsg" onkeypress="event.keyCode == 13 ? send_message('textmsg'): null" placeholder="Escreva sua mensagem...">
-        <button class="btnOk" type="submit" name="btnEnter" onclick="send_message('textmsg')">ok</button>        
+        <input type="text" name="textmsg" id="textmsg" onkeypress="event.keyCode == 13 ? send_message('textmsg'): null" placeholder="Escreva sua mensagem...">
+        <button id="btnEnviar" type="submit" name="btnEnter" onclick="send_message('textmsg')">Enviar</button>        
     </div>
 </div>

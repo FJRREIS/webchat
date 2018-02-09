@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color:#666666;
+    background:#666666;
     background: -webkit-gradient(linear, top bottom, color-stop(100%, #c9c9c9), color-stop(100%,#666)); /* Chrome, Safari4+ */
     background: -webkit-linear-gradient(bottom, #c9c9c9 100%,#666666 100%); /* Chrome10+, Safari5.1+ */
     background: -moz-linear-gradient(bottom, #c9c9c9 100%,#666666 100%);    /* FF3.6+ */
@@ -14,10 +14,9 @@ body {
 }
 
 #main_container{
-    height: 98%;
+    height: 97%;
     margin: 0;
     padding: 1em 0 0;
-    /* border: 1px solid red;  */
 }
 
 #header_container{
@@ -44,7 +43,7 @@ body {
     text-shadow: 2px 2px 4px #666666;  
 }
 
-.login_input{
+input{
     border:none;
     border-bottom: 1px solid #CF0404;
     margin: 10px;
@@ -96,7 +95,6 @@ a{
 /*chat*/
 
 #chat_header_container{
-    /* border: 1px solid red; */
     align-self: center;
     text-align: left;
     margin: auto;
@@ -137,23 +135,53 @@ a{
 }
 
 #messages-body{
-    border: 6px ridge #908484;
-    /* background: #02839B; */
-    background: -webkit-gradient(linear, bottom top, color-stop(100%, #FFABAB), color-stop(100%,#EC6767)); /* Chrome, Safari4+ */
-    background: -webkit-linear-gradient(top, #FFABAB 100%,#EC6767 100%); /* Chrome10+, Safari5.1+ */
-    background: -moz-linear-gradient(top, #FFABAB 100%,#EC6767 100%);    /* FF3.6+ */
-    background: linear-gradient(to top, #FFABAB 100%,#EC6767 100%);     /* W3C */
-    background: linear-gradient(to top, #FFABAB,#EC6767);
+    
+    background: #FFABAB;
+    background: -webkit-gradient(linear, bottom top, color-stop(100%, #FFABAB), color-stop(100%,#fc8484)); /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(top, #FFABAB 100%,#fc8484 100%); /* Chrome10+, Safari5.1+ */
+    background: -moz-linear-gradient(top, #FFABAB 100%,#fc8484 100%);    /* FF3.6+ */
+    background: linear-gradient(to top, #FFABAB 100%,#fc8484 100%);     /* W3C */
+    background: linear-gradient(to top, #FFABAB,#fc8484);
+    right: 12em; 
+    left: 0;
+}
+
+#online-users{
+    background: #e6e2e2;
+    right: 0;
+    width: 11em;
+}
+
+.chat-container{
+    border: 6px ridge #9e9494;
+    border-radius: 0.6em;
     position: absolute;
-    width: 99%;
     top: 0;
     bottom: 3.2em;
 }
 
+#textmsg, #btnEnviar{
+    height: 100%;
+    padding: 0;
+}
+
+#textmsg{
+    position: absolute;
+    left: 6.2em;
+    margin: 0;
+}
+
+#btnEnviar{
+    width: 6em;
+    left: 0;
+    float: left;
+}
+
 #footer{
+    /* border: 1px solid red; */
     height: 3em;
     float: bottom;
     position: absolute;
     width: 100%;
     bottom: 0;
-}
+}   

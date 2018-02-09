@@ -16,7 +16,7 @@ function load_chat() {
         }
     };
 
-    xhttp.open("GET", "http://127.0.0.1:8887/chat.html");
+    xhttp.open("GET", "http://127.0.0.1:8887/webchat/chat.html");
     xhttp.send();
 }
 
